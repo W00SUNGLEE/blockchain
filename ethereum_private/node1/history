@@ -1,0 +1,9 @@
+
+admin
+miner.start()
+admin
+net.peerCount
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()

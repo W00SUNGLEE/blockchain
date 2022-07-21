@@ -1,0 +1,43 @@
+{
+ "genesis": {
+   "config": {
+      "chainId": 720,
+     "londonBlock": 0,
+      "ibft2": {
+        "blockperiodseconds": 2,
+        "epochlength": 30000,
+        "requesttimeoutseconds": 4
+      }
+    },
+    "nonce": "0x0",
+    "timestamp": "0x58ee40ba",
+    "gasLimit": "0x47b760",
+    "difficulty": "0x1",
+    "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+       "e59ab0B347b42b5C004391C3b0c700eDb4478043": {
+          "privateKey": "934c7b6acecde6daa71365a9a3a32c9a798696fb4a25a34c2a36b5887ced85ad",
+          "balance": "0xad78ebc5ac6200000"
+       },
+       "64A614b3b6dA4B3b1fD1552b9102397B9798236F": {
+         "privateKey": "f0fd99272e7159d80450383f4245ee5ae42072f9d345ec9e3ac62c4d6f05b1a2",
+         "balance": "90000000000000000000000"
+       },
+       "B4F95FFC380e2155b2d698F708692272dA84AE7": {
+         "privateKey": "d70d9779015997f3e72ff08ef8ef19b1560582760dba20638904134e6255e531",
+         "balance": "50000000000000000000000"
+       },
+       "199512E943d5d5c79289324cc246db2f4C420f27": {
+         "privateKey": "f0a6f9c504ed04586989f817f45883aeb9715ee631a23f54ea36f75244872dd0",
+         "balance": "40000000000000000000000"
+       }
+      }
+ },
+ "blockchain": {
+   "nodes": {
+     "generate": true,
+       "count": 4
+   }
+ }
+}
